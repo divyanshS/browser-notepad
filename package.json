@@ -1,0 +1,51 @@
+{
+  "name": "browser-notepad",
+  "version": "1.0.0",
+  "description": "Local-first, browser-only notes app. No backend: everything lives in IndexedDB.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc -b --noEmit"
+  },
+  "dependencies": {
+    "@tiptap/core": "3.30.2",
+    "@tiptap/extensions": "3.30.2",
+    "@tiptap/pm": "3.30.2",
+    "@tiptap/react": "3.30.2",
+    "@tiptap/starter-kit": "3.30.2",
+    "dexie": "4.4.5",
+    "dexie-react-hooks": "4.4.0",
+    "jszip": "3.10.1",
+    "minisearch": "7.2.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "7.0.1",
+    "@testing-library/react": "16.3.2",
+    "@testing-library/user-event": "14.6.6",
+    "@types/node": "24.13.3",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "@vitejs/plugin-react": "6.1.0",
+    "fake-indexeddb": "6.2.5",
+    "jsdom": "30.0.1",
+    "oxlint": "1.79.0",
+    "typescript": "6.0.3",
+    "vite": "8.2.2",
+    "vitest": "4.1.11"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
+  }
+}

@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------------------
+# COMMIT: source (src/, public/), index.html, package.json, package-lock.json,
+#         tsconfig*.json, vite.config.ts, vitest.config.ts, .oxlintrc.json,
+#         .nvmrc, .github/, README.md, LICENSE, CLAUDE.md, AGENTS.md
+# DO NOT COMMIT: anything listed below
+# ---------------------------------------------------------------------------
+
+# Dependencies (restored by `npm ci`)
+node_modules/
+
+# Build output (GitHub Pages builds it from source in CI)
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Test / coverage artefacts
+coverage/
+.vitest/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Local-only environment overrides
+.env
+.env.*
+*.local
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# AI tooling scratch (session-local, never shareable)
+.claude/settings.local.json
