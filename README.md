@@ -8,13 +8,16 @@ A lightweight note-taking app that runs entirely in your browser. There is no se
 ![Light theme](.github/assets/screenshot-light.png)
 
 <details>
-<summary>More screenshots — dark theme, collapsed folder pane</summary>
+<summary>More screenshots — dark theme, collapsed folder pane, about dialog</summary>
 
 ![Dark theme](.github/assets/screenshot-dark.png)
 ![Collapsed folder pane](.github/assets/screenshot-collapsed.png)
+![About dialog](.github/assets/screenshot-about.png)
 </details>
 
 > **About this project.** This is a vibe-coded tool: it was built with an AI coding assistant from a short product spec, for my own personal use, and then opened up in case it helps others. It is shared as-is under the MIT licence — use it, fork it, and adapt it however you like. It works well for me, but treat it as a hobby project rather than a supported product.
+>
+> Built by **[Divyansh Sharma](https://www.linkedin.com/in/sharma-divyansh/)** · [GitHub](https://github.com/divyanshS) · [Repository](https://github.com/divyanshS/browser-notepad)
 
 ## ⚠️ Your notes live only in this browser
 
@@ -72,6 +75,22 @@ The workflow in `.github/workflows/deploy.yml` runs typecheck, lint, tests and t
 
 See [AGENTS.md](AGENTS.md) for the architecture and conventions (written for AI coding agents, useful for humans too).
 
+## Disclaimer
+
+This software is provided **as is, without warranty of any kind**, express or implied. You alone are responsible for how you use it and for keeping your own backups — export your notes regularly.
+
+The author accepts **no liability** for any data loss, nor for the reliability, availability or security of this software or of any deployment of it, including the hosted GitHub Pages build. If you self-host or fork it, you are responsible for your own deployment. See the [MIT licence](LICENSE) for the full legal terms.
+
+## Author
+
+Made by **Divyansh Sharma**.
+
+- LinkedIn — [in/sharma-divyansh](https://www.linkedin.com/in/sharma-divyansh/)
+- GitHub — [@divyanshS](https://github.com/divyanshS)
+- Repository — [divyanshS/browser-notepad](https://github.com/divyanshS/browser-notepad)
+
+If you find this useful, a ⭐ on the repository is always appreciated.
+
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) © Divyansh Sharma

@@ -5,6 +5,7 @@ import { ALL_NOTES_ID, type FolderSelection } from '../types'
 import { FolderTreeItem, type FolderActions } from './FolderTreeItem'
 import type { Theme } from '../hooks/useTheme'
 import { ExportIcon, NewFolderIcon, NotesIcon } from './Icons'
+import { AboutSection } from './AboutSection'
 import { ThemePicker } from './ThemePicker'
 
 export interface FolderPaneProps {
@@ -101,6 +102,7 @@ export function FolderPane({
           <ExportIcon />
           Export all
         </button>
+        <AboutSection />
       </footer>
     </aside>
   )

@@ -624,6 +624,66 @@ mark.search-highlight {
   overflow-wrap: anywhere;
 }
 
+.about-line {
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--fg-muted);
+  text-align: center;
+}
+
+.about-line a,
+.link-button {
+  color: var(--fg-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.about-line a:hover,
+.link-button:hover {
+  color: var(--fg);
+}
+
+.link-button {
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.link-button:focus-visible,
+.about-line a:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.about-dialog {
+  width: min(420px, calc(100vw - 32px));
+}
+
+.about-dialog a {
+  color: var(--link);
+}
+
+.about-links {
+  margin: 12px 0;
+  padding-left: 18px;
+  color: var(--fg-muted);
+}
+
+.about-links li {
+  margin-bottom: 2px;
+}
+
+.about-subtitle {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
 .confirm-dialog-actions {
   display: flex;
   justify-content: flex-end;
